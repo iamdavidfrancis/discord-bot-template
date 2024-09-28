@@ -1,0 +1,27 @@
+{
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "description": "A simple bot",
+    "main": "dist/index.js",
+    "scripts": {
+      "dev": "tsx watch src/index.ts",
+      "start": "node dist/index.js",
+      "build": "tsup src/index.ts --minify"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/node": "^22.5.5",
+      "tsup": "^8.3.0",
+      "tsx": "^4.19.1",
+      "typescript": "^5.6.2"
+    },
+    "dependencies": {
+      "@azure/data-tables": "^13.2.2",
+      "@azure/identity": "^4.4.1",
+      "chrono-node": "^2.7.7",
+      "discord.js": "^14.16.2",
+      "dotenv": "^16.4.5"
+    }
+  }
+  
